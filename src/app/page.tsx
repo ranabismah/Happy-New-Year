@@ -22,7 +22,7 @@ const HomePage = () => {
   }, [timeLeft]);
 
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center bg-white dark:bg-black text-black dark:text-white">
+    <div className="relative h-screen flex flex-col items-center justify-center bg-pink-200 dark:bg-black text-black dark:text-white">
       {/* Theme Toggle button */}
       <ThemeToggle />
 
@@ -45,7 +45,7 @@ const HomePage = () => {
         )}
       </div>
 
-      {/* Fireworks Display */}
+      {/* Fireworks Display. */}
       {showMessage && <FireworksDisplay />}
     </div>
   );
